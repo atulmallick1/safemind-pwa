@@ -73,6 +73,8 @@ export const T = {
   tryLabels: ['Guided Breathing →', 'Grounding Exercise →', 'Quick Screening →', 'Talk to Someone →'],
   resetMood: '← Check in again',
   footer: 'SafeMind is not a substitute for professional care. If in crisis, contact emergency services.',
+  brand: 'A Roseleap Initiative',
+  brandUrl: 'https://roseleap.com',
 };
 
 export const styles = {
