@@ -1,7 +1,7 @@
 {
-  "name": "SafeMind — Mental Health First Response",
+  "name": "SafeMind — A Roseleap Initiative",
   "short_name": "SafeMind",
-  "description": "Free mental health first-response tool for people affected by conflict and crisis",
+  "description": "Free mental health first-response tool for people affected by conflict and crisis. Built by Roseleap.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#eef4e8",
