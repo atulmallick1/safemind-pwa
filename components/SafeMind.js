@@ -117,6 +117,15 @@ function LandingPage({ lang, setLang, onEnter }) {
         >
           Begin
         </button>
+        <p style={{
+          fontSize: 12, color: '#8aaa80', marginTop: 20, letterSpacing: 0.5,
+        }}>
+          <a href={T.brandUrl} target="_blank" rel="noopener noreferrer" style={{
+            color: '#7aaa6e', textDecoration: 'none', fontWeight: 600,
+          }}>
+            {T.brand}
+          </a>
+        </p>
       </div>
 
       <div style={{ position: 'absolute', bottom: 28, textAlign: 'center' }}>
@@ -240,7 +249,14 @@ export default function SafeMind() {
           pointerEvents: 'none',
         }}
       >
-        <p style={{ fontSize: 11, color: '#8aaa80', margin: 0 }}>{T.footer}</p>
+        <p style={{ fontSize: 11, color: '#8aaa80', margin: 0 }}>
+          {T.footer} ·{' '}
+          <a href={T.brandUrl} target="_blank" rel="noopener noreferrer" style={{
+            color: '#7aaa6e', textDecoration: 'none', fontWeight: 600, pointerEvents: 'auto',
+          }}>
+            {T.brand}
+          </a>
+        </p>
       </div>
     </div>
   );
