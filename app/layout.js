@@ -1,21 +1,21 @@
 import './globals.css';
 
 export const metadata = {
-  title: 'SafeMind — Mental Health First Response',
-  description: 'A free mental health first-response tool for people affected by conflict and crisis. Guided breathing, grounding exercises, PTSD screening, and crisis resources.',
-  keywords: ['mental health', 'crisis support', 'PTSD', 'war', 'conflict', 'refugees', 'breathing exercise', 'grounding', 'trauma'],
-  authors: [{ name: 'SafeMind' }],
+  title: 'SafeMind — A Roseleap Initiative',
+  description: 'A free mental health first-response tool for people affected by conflict and crisis. Built by Roseleap. Guided breathing, grounding exercises, PTSD screening, and crisis resources.',
+  keywords: ['mental health', 'crisis support', 'PTSD', 'war', 'conflict', 'refugees', 'breathing exercise', 'grounding', 'trauma', 'Roseleap', 'SafeMind'],
+  authors: [{ name: 'Roseleap', url: 'https://roseleap.com' }],
   openGraph: {
-    title: 'SafeMind — Mental Health First Response',
-    description: 'Free mental health support for people affected by conflict and crisis.',
+    title: 'SafeMind — A Roseleap Initiative',
+    description: 'Free mental health first-response tool for people affected by conflict and crisis. Built by Roseleap.',
     type: 'website',
     locale: 'en_US',
-    siteName: 'SafeMind',
+    siteName: 'SafeMind by Roseleap',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'SafeMind — Mental Health First Response',
-    description: 'Free mental health support for people affected by conflict and crisis.',
+    title: 'SafeMind — A Roseleap Initiative',
+    description: 'Free mental health first-response tool for people affected by conflict and crisis. Built by Roseleap.',
   },
   viewport: {
     width: 'device-width',
